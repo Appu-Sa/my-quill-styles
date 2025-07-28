@@ -1,5 +1,5 @@
 {
-  "name": "@devneural/my-quill-styles",
+  "name": "@appu-sa/my-quill-styles",
   "version": "1.0.0",
   "description": "Public CSS styles for Quill",
   "main": "styles.css",

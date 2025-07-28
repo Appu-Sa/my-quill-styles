@@ -1,0 +1,451 @@
+/* Enhanced Quill Editor Styles */
+
+/* Editor Container Styles */
+.quill-editor-enhanced .ql-container {
+  height: 550px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.quill-editor-enhanced .ql-editor {
+  height: 100%;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/* Toolbar Enhancements */
+.quill-editor-enhanced .ql-toolbar {
+  border-top: 1px solid #e5e7eb;
+  border-left: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+  padding: 12px;
+}
+
+.quill-editor-enhanced .ql-toolbar .ql-formats {
+  margin-right: 15px;
+}
+
+/* Content Wrapper Styles - Default rich-content class */
+.rich-content,
+.blog-post,
+.article-content,
+.content-wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.7;
+  color: #1f2937;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+/* Headings */
+.rich-content h1, 
+.blog-post h1, 
+.article-content h1,
+.content-wrapper h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 2rem 0 1rem 0;
+  color: #111827;
+  letter-spacing: -0.025em;
+}
+
+.rich-content h2, 
+.blog-post h2, 
+.article-content h2,
+.content-wrapper h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 1.75rem 0 0.875rem 0;
+  color: #1f2937;
+  letter-spacing: -0.025em;
+}
+
+.rich-content h3, 
+.blog-post h3, 
+.article-content h3,
+.content-wrapper h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 1.5rem 0 0.75rem 0;
+  color: #374151;
+  letter-spacing: -0.025em;
+}
+
+.rich-content h4, 
+.blog-post h4, 
+.article-content h4,
+.content-wrapper h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 1.25rem 0 0.625rem 0;
+  color: #4b5563;
+}
+
+.rich-content h5, 
+.blog-post h5, 
+.article-content h5,
+.content-wrapper h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 1rem 0 0.5rem 0;
+  color: #6b7280;
+}
+
+.rich-content h6, 
+.blog-post h6, 
+.article-content h6,
+.content-wrapper h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0.875rem 0 0.4375rem 0;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Paragraphs */
+.rich-content p, 
+.blog-post p, 
+.article-content p,
+.content-wrapper p {
+  margin: 0 0 1.25rem 0;
+  line-height: 1.7;
+  color: #374151;
+  font-size: 1.25rem;
+}
+
+.rich-content p:last-child, 
+.blog-post p:last-child, 
+.article-content p:last-child,
+.content-wrapper p:last-child {
+  margin-bottom: 0;
+}
+
+/* Lists */
+.rich-content ul, 
+.blog-post ul, 
+.article-content ul,
+.content-wrapper ul {
+  list-style-type: disc;
+  margin: 1.25rem 0;
+  padding-left: 2rem;
+}
+
+.rich-content ol, 
+.blog-post ol, 
+.article-content ol,
+.content-wrapper ol {
+  list-style-type: decimal;
+  margin: 1.25rem 0;
+  padding-left: 2rem;
+}
+
+.rich-content li, 
+.blog-post li, 
+.article-content li,
+.content-wrapper li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  color: #374151;
+}
+
+.rich-content ul ul, 
+.rich-content ol ol, 
+.rich-content ul ol, 
+.rich-content ol ul,
+.blog-post ul ul, 
+.blog-post ol ol, 
+.blog-post ul ol, 
+.blog-post ol ul,
+.article-content ul ul, 
+.article-content ol ol, 
+.article-content ul ol, 
+.article-content ol ul,
+.content-wrapper ul ul, 
+.content-wrapper ol ol, 
+.content-wrapper ul ol, 
+.content-wrapper ol ul {
+  margin: 0.5rem 0;
+}
+
+/* Quill specific list indentation */
+.rich-content .ql-indent-1,
+.blog-post .ql-indent-1,
+.article-content .ql-indent-1,
+.content-wrapper .ql-indent-1 {
+  margin-left: 3rem;
+}
+
+.rich-content .ql-indent-2,
+.blog-post .ql-indent-2,
+.article-content .ql-indent-2,
+.content-wrapper .ql-indent-2 {
+  margin-left: 4.5rem;
+}
+
+.rich-content .ql-indent-3,
+.blog-post .ql-indent-3,
+.article-content .ql-indent-3,
+.content-wrapper .ql-indent-3 {
+  margin-left: 6rem;
+}
+
+/* Text Formatting */
+.rich-content strong, 
+.blog-post strong, 
+.article-content strong,
+.content-wrapper strong {
+  font-weight: 700;
+  color: #111827;
+}
+
+.rich-content em, 
+.blog-post em, 
+.article-content em,
+.content-wrapper em {
+  font-style: italic;
+}
+
+.rich-content u, 
+.blog-post u, 
+.article-content u,
+.content-wrapper u {
+  text-decoration: underline;
+  text-decoration-color: #6b7280;
+}
+
+.rich-content s, 
+.blog-post s, 
+.article-content s,
+.content-wrapper s {
+  text-decoration: line-through;
+  text-decoration-color: #9ca3af;
+}
+
+/* Links */
+.rich-content a, 
+.blog-post a, 
+.article-content a,
+.content-wrapper a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-decoration-color: #93c5fd;
+  text-underline-offset: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.rich-content a:hover, 
+.blog-post a:hover, 
+.article-content a:hover,
+.content-wrapper a:hover {
+  color: #1d4ed8;
+  text-decoration-color: #60a5fa;
+}
+
+/* Blockquotes */
+.rich-content blockquote, 
+.blog-post blockquote, 
+.article-content blockquote,
+.content-wrapper blockquote {
+  border-left: 4px solid #e5e7eb;
+  margin: 1.5rem 0;
+  padding: 1rem 0 1rem 1.5rem;
+  color: #6b7280;
+  font-style: italic;
+  background-color: #f9fafb;
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+
+.rich-content blockquote p, 
+.blog-post blockquote p, 
+.article-content blockquote p,
+.content-wrapper blockquote p {
+  margin: 0;
+  color: inherit;
+}
+
+/* Code */
+.rich-content code, 
+.blog-post code, 
+.article-content code,
+.content-wrapper code {
+  background-color: #f3f4f6;
+  color: #1f2937;
+  padding: 0.25rem 0.375rem;
+  border-radius: 0.25rem;
+  font-family: 'Fira Code', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
+.rich-content pre, 
+.blog-post pre, 
+.article-content pre,
+.content-wrapper pre {
+  background-color: #1f2937;
+  color: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  font-family: 'Fira Code', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.rich-content pre code, 
+.blog-post pre code, 
+.article-content pre code,
+.content-wrapper pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  font-size: inherit;
+}
+
+/* Images */
+.rich-content img, 
+.blog-post img, 
+.article-content img,
+.content-wrapper img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Text Alignment */
+.rich-content .ql-align-center,
+.blog-post .ql-align-center,
+.article-content .ql-align-center,
+.content-wrapper .ql-align-center {
+  text-align: center;
+}
+
+.rich-content .ql-align-right,
+.blog-post .ql-align-right,
+.article-content .ql-align-right,
+.content-wrapper .ql-align-right {
+  text-align: right;
+}
+
+.rich-content .ql-align-justify,
+.blog-post .ql-align-justify,
+.article-content .ql-align-justify,
+.content-wrapper .ql-align-justify {
+  text-align: justify;
+}
+
+/* Subscript and Superscript */
+.rich-content sub, 
+.blog-post sub, 
+.article-content sub,
+.content-wrapper sub {
+  vertical-align: sub;
+  font-size: 0.75em;
+}
+
+.rich-content sup, 
+.blog-post sup, 
+.article-content sup,
+.content-wrapper sup {
+  vertical-align: super;
+  font-size: 0.75em;
+}
+
+/* Tables (if you plan to add table support) */
+.rich-content table, 
+.blog-post table, 
+.article-content table,
+.content-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.rich-content th, 
+.rich-content td, 
+.blog-post th, 
+.blog-post td, 
+.article-content th, 
+.article-content td,
+.content-wrapper th, 
+.content-wrapper td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.rich-content th, 
+.blog-post th, 
+.article-content th,
+.content-wrapper th {
+  background-color: #f9fafb;
+  font-weight: 600;
+  color: #374151;
+}
+
+/* Video Embeds */
+.rich-content iframe, 
+.blog-post iframe, 
+.article-content iframe,
+.content-wrapper iframe {
+  max-width: 100%;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .rich-content, 
+  .blog-post, 
+  .article-content,
+  .content-wrapper {
+    font-size: 0.9rem;
+  }
+  
+  .rich-content h1, 
+  .blog-post h1, 
+  .article-content h1,
+  .content-wrapper h1 {
+    font-size: 2rem;
+  }
+  
+  .rich-content h2, 
+  .blog-post h2, 
+  .article-content h2,
+  .content-wrapper h2 {
+    font-size: 1.75rem;
+  }
+  
+  .rich-content h3, 
+  .blog-post h3, 
+  .article-content h3,
+  .content-wrapper h3 {
+    font-size: 1.375rem;
+  }
+  
+  .rich-content ul, 
+  .rich-content ol, 
+  .blog-post ul, 
+  .blog-post ol, 
+  .article-content ul, 
+  .article-content ol,
+  .content-wrapper ul, 
+  .content-wrapper ol {
+    padding-left: 1.5rem;
+  }
+}

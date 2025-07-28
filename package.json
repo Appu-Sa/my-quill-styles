@@ -1,14 +1,11 @@
 {
-  "name": "@Appu-Sa/my-quill-styles",
+  "name": "@devneural/my-quill-styles",
   "version": "1.0.0",
   "description": "Public CSS styles for Quill",
   "main": "styles.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Appu-Sa/my-quill-styles.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "quill",

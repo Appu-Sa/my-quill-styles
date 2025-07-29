@@ -1,16 +1,16 @@
 {
-  "name": "@appu-sa/my-quill-styles",
+  "name": "@devneural/my-quill-styles",
   "version": "1.0.0",
   "description": "Public CSS styles for Quill",
   "main": "styles.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Appu-Sa/my-quill-styles.git"
+    "url": "git+https://github.com/devneural/my-quill-styles.git"
   },
   "keywords": [
     "quill",
     "css"
   ],
-  "author": "Sanjay S",
+  "author": "Devneural",
   "license": "MIT"
 }
